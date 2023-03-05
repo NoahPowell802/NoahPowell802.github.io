@@ -1,7 +1,10 @@
 h1 {
-    color: #74380f;
+    color: #000000;
 }
 
 body {
-    background-color: #ccfffe;
+    background-color: #fce5ff;
+}
+button {
+    color: #865202
 }
