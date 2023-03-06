@@ -11,3 +11,28 @@ button {
     color: black;
     box-align: center;
 }
+
+.container { 
+  height: 200px;
+  position: relative; 
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+.center {
+    margin: 1;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translate(600%, -25%);
+}
+.button-text {
+    margin: 1;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translate(125%, -125%);
+}
