@@ -15,7 +15,10 @@ button {
 
 .container { 
   height: 200px;
-  position: relative; 
+  position: relative;
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .vertical-center {
